@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Universal Sans Display';
+    src: url('Font/Universal-Sans-Display-450-Trial.ttf') format('ttf'),
+         url('Font/Universal-Sans-Display-450-Trial.ttf') format('woff'),
+         url('Font/Universal-Sans-Display-450-Trial.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Universal Sans Display', Arial, sans-serif;
+    margin: 0px;
+  }
+  
+
+
+.First-page{
+    background: url(Images/1stpic.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 10%;
+    display: block;
+}
+
+.logo-section{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.nav-links-section{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.other-things-section{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.logo{
+    width: 121px;
+    height: 12px;
+    margin-top: 22px;
+    margin-left: 47px;
+}
+
+.nav-bar-links a{
+    font-family: 'Universal Sans Text', Arial, sans-serif;
+    text-decoration: none;
+    padding: 18px 15px;
+    color: #f2f2f2;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.nav-bar-links{
+    padding-top: 19px;
+    padding-left: 25px;
+}
+
+.svg{
+    margin-top: 16px;
+    margin-left: 173px;
+}
+
+.question-mark{
+    height: 24px;
+}
+
+.Globe{
+    height: 24px;
+    padding-left: 8px;
+}
+
+.Account{
+    height: 24px;
+    padding-left: 8px;
+}
+
+
+
+.Main-content{
+    width: 100%;
+    height: 75%;
+}
+
+.Main-content h1{
+    font-weight: 600;
+    font-size: 53px;
+    color: #f2f2f2;
+    padding-top: 12px;
+    padding-left: 659px;
+    letter-spacing: 2px;
+    line-height: 56px;
+}
+
+.Main-content h3{
+    color: #f2f2f2;
+    padding-left: 632px;
+    padding-top: 3px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    border: .5px solid #f2f2f2;
+    align-items: center;
+    width: 17%;
+}
+
+.Main-content p{
+    font-family: 'Universal Sans Text', Arial, sans-serif;
+    color: #f2f2f2;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+sup{
+    font-size: 9px;
+}
+
+.button-section{
+    width: 100%;
+    height: 15%;
+}
+
+.order-section{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.order-button button{
+    font-family: 'Universal Sans Text', Arial, sans-serif;
+    background-color: #3E6AE1;
+    border: none;
+    color: white;
+    padding: 11px 99px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    border-radius: 4px;
+    float: left;
+}
+
+.order-button{
+    padding-left: 488px;
+    padding-top: 38px;
+    float: left;
+}
+
+.Demo-section{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.Demo-button button{
+    font-family: 'Universal Sans Text', Arial, sans-serif;
+    background-color: #FFFFFF;
+    border: none;
+    color: #393C41;
+    padding: 11px 95px;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    border-radius: 4px;
+    float: left;
+}
+
+.Demo-button{
+    padding-left: 10px;
+    padding-top: 37px;
+    float: left;
+}
+
+.second-page{
+    background: url(Images/2ndpic.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.content{
+    width: 100%;
+    height: 85%;
+}
+
+.content h1{
+    font-weight: 600;
+    font-size: 53px;
+    color: #f2f2f2;
+    padding-top: 80px;
+    padding-left: 663px;
+    letter-spacing: 2px;
+    line-height: 56px;
+}
+
+.content h3{
+    color: #f2f2f2;
+    padding-left: 632px;
+    padding-top: 3px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.content p{
+    font-family: 'Universal Sans Text', Arial, sans-serif;
+    color: #f2f2f2;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.Third-page{
+    background: url(Images/3rdpic.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.Third-page h3{
+    padding-left: 670px;
+    padding-top: 2px;
+}
+
+.Third-page p{
+    padding-top: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 0px;
+}
+
+.first-line{
+    width: 243px;
+}
+
+.second-line{
+    width: 224px;
+}
+
+.Third-page h1{
+    padding-top: 87px;
+    padding-left: 658px;
+}
+
+.Third-page sup{
+    padding-left: 1px;
+}
+
+.fourth-page{
+    background: url(Images/4thpic.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.fourth-page sup{
+    padding-left: 1px;
+}
+
+.fourth-page h1{
+    padding-top: 87px;
+    padding-left: 658px;
+}
+
+.fourth-page h3{
+    padding-left: 670px;
+    padding-top: 2px;
+}
+
+.fourth-page p{
+    padding-top: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 0px;
+}
+
+.fourth-page hr{
+    width: 14%;
+}
+
+.fifth-page{
+    background: url(Images/5thpic.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.cybertruck{
+    width: 100%;
+    height: 85%;
+}
+
+.cybertruck-logo{
+    padding-left: 545px;
+    padding-top: 89px;
+    height: 166px;
+}
+
+.cybertruck-button-section{
+    width: 100%;
+    height: 15%;
+}
+
+.cybertruck-Order-button-section{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.cybertruck-Demo-button-section{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.cybertruck-Order-button button{
+    font-family: 'Universal Sans Text', Arial, sans-serif;
+    background-color: #211613;
+    border: none;
+    color: #A59694;
+    padding: 11px 89px;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 600;
+    float: left;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.cybertruck-Order-button hr{
+    width: 261px; 
+    border: 1px solid #90817E;
+}
+
+.cybertruck-Order-button{
+    padding-left: 488px;
+    padding-top:35px;
+}
+
+.cybertruck-Demo-button button{
+    font-family: 'Universal Sans Text', Arial, sans-serif;
+    background-color: #211613;
+    border: none;
+    color: #A59694;
+    padding: 13px 89px;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 600;
+    float: left;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.cybertruck-Demo-button{
+    padding-top: 34px;
+    padding-left: 8px;
+}
+
+.cybertruck-Demo-button button :hover{
+    background-color: #2F2022;
+}
+
+.sixth-page{
+    background: url(Images/6thpic.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.content-section{
+    width: 100%;
+    height: 85%;
+}
+
+.content-section h1{
+    padding-left: 610px;
+    padding-top: 87px;
+    font-weight: 600;
+    font-size: 53px;
+    color: #f2f2f2;
+    letter-spacing: 2px;
+    line-height: 56px;
+}
+
+.content-section h3{
+    padding-left: 567px;
+    color: #f2f2f2;
+    padding-top: 3px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.content-section hr{
+    width: 25%;
+}
+
+.seventh-page{
+    background: url(Images/7thpic.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.seventh-page h1{
+    padding-left: 634px;
+}
+
+.seventh-page h3{
+    padding-left: 527px;
+}
+
+.eighth-page{
+    background: url(Images/8thpic.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.eighth-page h1{
+    padding-left: 638px;
+}
+
+.nineth-page{
+    background: url(Images/9thpic.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.Shopnow-button button{
+    font-family: 'Universal Sans Text', Arial, sans-serif;
+    background-color: #3E6AE1;
+    border: none;
+    color: white;
+    padding: 11px 99px;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    border-radius: 4px;
+    float: left;
+}
+
+.Shopnow-button{
+    padding-left: 630px;
+    padding-top: 38px;
+    float: left;
+}
+
+.tenth-page{
+    background: #000;
+    width: 100%;
+    height: 532px;
+    background-size: cover;
+    position: relative;
+}
+
+.first-para{
+    color: #f2f2f2;
+    font-family: 'Universal Sans Text', Arial, sans-serif;
+    font-size: 12px;
+    word-spacing: 1px;
+    line-height: 18px;
+    padding-top: 41px;
+}
+
+.num{
+    font-size: 8px;
+}
+
+.bal-para{
+    color: #f2f2f2;
+    font-family: 'Universal Sans Text', Arial, sans-serif;
+    font-size: 12px;
+    word-spacing: 1px;
+    line-height: 18px;
+    padding-top: 10px;
+}
+
+.text-section{
+    width: 100%;
+    height: 90%;
+}
+
+.footer{
+    width: 100%;
+    height: 10%;
+}
+
+.elements p{
+    float: left;
+    color: #f2f2f2;
+    font-family: 'Universal Sans Text', Arial, sans-serif;
+    font-size: 12px; 
+    padding-left: 18px; 
+}
+
+.elements{
+    padding-left: 476px;
+    padding-top: 10px;
+}
